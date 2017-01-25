@@ -1,0 +1,159 @@
+body, html {
+
+	padding: 0px;
+	margin: 0px;
+}
+
+
+#top {
+			color: #FFFFFF;
+			font-size: 80px;
+			background-color: #7A0606;
+			height: 170px;
+			background-image: url("pictures/header.jpg");
+
+	}
+
+
+
+h1 {		
+
+	        display: inline-block;
+			margin-top: -3px;
+			font-size: 183px;
+			margin-left: 1px;
+			font-family: 'VT323', monospace;
+
+
+}
+
+p {
+
+	        font-family: 'VT323', monospace;
+
+}
+
+#navigation{
+	
+	display: inline-block;
+	font-size: 22px;
+	color: #FFFFFF;
+	width: 481px;
+	word-spacing: 24px;
+}
+
+#navigation li {
+
+	list-style: none;
+	display: inline-block;
+    font-family: 'VT323', monospace;
+    color: #FFFFFF;
+
+
+}
+
+#colour {
+
+	color: transparent;
+
+}
+
+#left_column {
+
+	background-image: url("pictures/vaporwave.jpg");
+	width: 50%;
+	display: inline-block;
+	border-radius: 5px;
+	float: left;
+
+}
+
+
+#right_column {
+
+	width: 50%;
+	height: 100%;
+	float: right;
+	display: inline-block;
+	position: fixed;
+	background-image: url("pictures/computer.jpg");
+
+}
+
+
+#container {
+
+	width: 100%;
+	height: 100%;
+}
+
+#p2 {
+
+	padding-left: 1px;
+}
+
+#pi {
+	margin-left: 156px;
+}
+
+.white {
+
+	color: white;
+	text-decoration: none;
+}
+
+h2 {
+	text-align: center;
+    font-family: 'VT323', monospace;
+
+}
+
+.panels {
+
+	border: 1px solid;
+}
+
+#s4c {
+
+	border-radius: 50%;
+	margin: 0 auto;
+	width: 57%;
+	display: block;
+	height: 80%;
+	margin-top: 48px;
+	margin-left: 145px;
+
+}
+
+li {
+
+	font-family: 'VT323', monospace;
+
+}
+
+.paragraphs {
+
+	margin-left: 78px;
+}
+
+.icon {
+
+	width: 50px; 
+	height: 50px;
+	margin-top: 1px;
+}
+
+#icons {
+
+	margin-left: 1px;
+}
+
+#icons2 {
+
+	margin-left: 270px;
+}
+
+#black {
+
+	colour: #000000;
+}

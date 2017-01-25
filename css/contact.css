@@ -1,0 +1,38 @@
+form, input {
+
+					font-family: 'VT323', monospace;
+
+}
+
+form {
+
+	font-size: 30px;
+}
+
+
+body {
+
+	background-image: url("pictures/contactpage.jpg");
+	background-color: #EE1E40;
+}
+
+.container {
+
+	margin-top: 118px;
+	margin-left: 127px; 
+	width: 950px;
+	height: 950px;
+	display: block;
+	display: inline-block				
+
+}
+
+h1 {
+
+				font-family: 'VT323', monospace;
+				font-size: 110px;
+				text-align: center;
+				margin-right: 528px;
+				margin-bottom: 0px;
+
+}
