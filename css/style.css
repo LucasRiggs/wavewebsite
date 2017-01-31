@@ -6,11 +6,12 @@ body, html {
 
 
 #top {
-			color: #FFFFFF;
-			font-size: 80px;
-			background-color: #7A0606;
-			height: 170px;
-			background-image: url("pictures/header.jpg");
+	
+	color: #FFFFFF;
+	font-size: 80px;
+	background-color: #7A0606;
+	height: 170px;
+	background-image: url("pictures/header.jpg");
 
 	}
 
@@ -18,18 +19,18 @@ body, html {
 
 h1 {		
 
-	        display: inline-block;
-			margin-top: -3px;
-			font-size: 183px;
-			margin-left: 1px;
-			font-family: 'VT323', monospace;
+	display: inline-block;
+    margin-top: -3px;
+	font-size: 183px;
+	margin-left: 1px;
+	font-family: 'VT323', monospace;
 
 
 }
 
 p {
 
-	        font-family: 'VT323', monospace;
+    font-family: 'VT323', monospace;
 
 }
 
@@ -68,6 +69,15 @@ p {
 
 }
 
+#whitepanel {
+
+	width: 80%;
+	height:80%;
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	background: rgba(192, 108, 193, 0.5);
+}
+
 
 #right_column {
 
@@ -94,6 +104,7 @@ p {
 
 #pi {
 	margin-left: 156px;
+	font-size: 19px;
 }
 
 .white {
@@ -134,6 +145,8 @@ li {
 .paragraphs {
 
 	margin-left: 78px;
+	font-size: 19px;
+
 }
 
 .icon {

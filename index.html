@@ -11,11 +11,11 @@
 		<h1>Lucas Riggs</h1>
 		<nav id="navigation">
 			<ul>
-				<a href="index.html#personalstatement"><li>Personal<span id="colour">-</span>Statement</li></a>
-				<a href="index.html#personalinformation"><li>Personal<span id="colour">-</span>information</li></a>
-				<a href="index.html#education"><li>Education</li></a>
-				<a href="index.html#experience"><li>Experience</li></a>
-				<a href="index.html#other"><li>Other</li></a>
+				<a href="#personalstatement"><li>Personal<span id="colour">-</span>Statement</li></a>
+				<a href="#personalinformation"><li>Personal<span id="colour">-</span>information</li></a>
+				<a href="#education"><li>Education</li></a>
+				<a href="#experience"><li>Experience</li></a>
+				<a href="#other"><li>Other</li></a>
 				<a href="contact.html"><li>Contact</li></a>
 			</ul>
 		</nav>
@@ -23,6 +23,7 @@
 
 	<main id="container">
 		<div id="left_column">
+			<div id="whitepanel">
 			<div class="panels" id="p1">
 				<h2 id="personalstatement">Personal statement</h2>
 					<p class="paragraphs">Biology graduate student who studied at Cardiff University, with a great aptitude for learning new skills, already having practical skills in communication, time management and analysis. Always been a tech and science geek. My favourite technological interest at present is automation.
@@ -103,7 +104,7 @@
 					</p>
 				
 			</div>
-
+		  </div>
 		</div>
 
 		<div id="right_column">
@@ -115,16 +116,14 @@
 			<a href="https://medium.com/@lucasriggs"><img class="icon" src="pictures/medium.png"></a>
     		<a href="https://twitter.com/riggingit"><img class="icon" src="pictures/twitter.png"></a>
 			</div>
-			</div>
+			</div>	
 			
-			
-
 		</div>
 
 
 	</main>
 
-	<!--javascript test-->
+	<!--javascript scripts-->
 
 <script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
 <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
@@ -133,6 +132,27 @@
             $( "#right_column" ).draggable();
          });
       </script>
+
+
+
+<script>
+ $('a[href*="#"]:not([href="#"])').click(function() {
+  if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+    var target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+    if (target.length) {
+      $('html, body').animate({
+        scrollTop: target.offset().top
+      }, 1000);
+      return false;
+    }
+  }
+});
+</script>
+
+
+
+
 
 
 </body>
