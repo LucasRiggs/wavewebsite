@@ -110,11 +110,11 @@
 		<div id="right_column">
 			
 			<div id="icons">
-			<img id="s4c" src="pictures/squareforcircle.jpg">
-			<div id="icons2">
-			<a href="https://github.com/LucasRiggs"><img class="icon" src="pictures/github.png"></a>
-			<a href="https://medium.com/@lucasriggs"><img class="icon" src="pictures/medium.png"></a>
-    		<a href="https://twitter.com/riggingit"><img class="icon" src="pictures/twitter.png"></a>
+			<img id="s4c" src="pictures/squareforcircle.jpg" alt="lucas riggs">
+			<div id="icons2" >
+			<a href="https://github.com/LucasRiggs" target="_blank"><img class="rotate" class="icon" alt="github link" src="pictures/github.png"></a>
+			<a href="https://medium.com/@lucasriggs" target="_blank"><img class="rotate" class="icon" src="pictures/medium.png" alt="medium link"></a>
+    		<a href="https://twitter.com/riggingit" target="_blank"><img class="rotate" class="icon" src="pictures/twitter.png" alt="twitter link"></a>
 			</div>
 			</div>	
 			
@@ -127,6 +127,8 @@
 
 <script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
 <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+
+<!--makes my face draggable-->
 <script>
          $(function() {
             $( "#right_column" ).draggable();
@@ -134,7 +136,7 @@
       </script>
 
 
-
+<!--makes my links smooth scroll-->
 <script>
  $('a[href*="#"]:not([href="#"])').click(function() {
   if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -150,10 +152,12 @@
 });
 </script>
 
-
-
-
-
+<!--makes my buttons rotate(modified)-->
+<script>
+$(".rotate").hover(function(){
+    $(this).toggleClass("down"); 
+});
+</script>
 
 </body>
 </html>
