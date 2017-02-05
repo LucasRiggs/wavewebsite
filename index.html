@@ -74,8 +74,29 @@
 	 			</ul>
 			</div>
 			<div id="fade_out">
-			<div class="panels" id="p3">
-				<h2 id="experience">Experience</h2>	
+			
+				
+			<div class="panels" id="p3_2">
+				<h2 id="experience1">Experience <span id="p">click to go back</span></h2>
+				<p><strong>Scouting, Group Sectional Assistant, September 2013-2015</strong></p>
+				<p>
+				For two years I have been volunteering within one group of cub scouts of ages 8-10 within the Cardiff area, often leading and organizing group activities. Activities involved physical and both academic elements which helped me learn a varied number of teaching skills.
+				</p>
+
+				<p><strong>Michael Wisher, waiter/bar work, December 2014/5</strong></p>
+				<p>Worked during Christmas holiday parties involved within the catering side of things either delivering food to tables or preparing food. I was also involved within bar work which helped improve my skills in customer service. This helped me develop efficient inter-personal skills as I was team leader of my  waiter group and had to constantly advice new waiters.</p>
+
+				<p><strong>Lloyd and Co, London, Admin Assistant, September 2011</strong></p>
+				<p>
+				For two years I have been volunteering within one group of cub scouts of ages 8-10 within the Cardiff area, often leading and organizing group activities. Activities involved physical and both academic elements which helped me learn a varied number of teaching skills.
+				</p>
+
+
+			</div>
+
+
+				<div class="panels" id="p3">
+				<h2 id="experience1">Experience <span id="p">click for more</span></h2>
 				<p><strong>Marks and Spencer, Team member, February 2016 – September 2016</strong></p>
 				<p>
 				For seven months I was involved as part of the team at Marks and Spencer in Sutton station. This involved preparing the in-store bakery, stocking, manning the tills and making coffee for early morning passengers. This has helped me develop both customer service and inter-personal skills due to interacting with a wide range of customers and also constantly having to work withing a team which had to be efficient and dynamic.
@@ -94,11 +115,7 @@
 				</p>
 			</div>
 
-			<div id="p3_2">
-				
-			</div>
-
-		
+	
 			</div>
 			
 			<div class="panels" id="p4">
@@ -163,6 +180,25 @@
 });
 </script>
 
+<script>
+
+$("#p3").click(function(){
+     $("#p3").css("opacity", 0);
+    $("#p3_2").css("opacity", 1);
+    $("#p3").css("z-index", -500);
+    $("#p3_2").css("z-index", 500);
+  });
+
+</script>
+
+<script>
+$("#p3_2").click(function(){
+    $("#p3_2").css("opacity", 0);
+    $("#p3").css("opacity", 1);
+    $("#p3").css("z-index", 500);
+    $("#p3_2").css("z-index", -500);
+});
+</script>
 
 </body>
 </html>

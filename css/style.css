@@ -33,7 +33,11 @@ h1 {
 
 }
 
-p, li {
+#p {
+
+	font-size: 15px;
+}
+p, li, #p {
 
 	font-family: 'Nova Square', cursive;
 	word-spacing: 2px;
@@ -150,10 +154,27 @@ h2 {
 	padding-left: 204px;
 }
 
-#p3_2 {
+#fade_out {
 
-	background-color: blue;
+	position: relative;
 }
+
+#p3, #p3_2 {
+	position: absolute;
+}
+
+#p3_2 {
+	opacity: 0;
+	padding-bottom: 115px;
+	padding-left: 11px;
+}
+
+
+
+#p4 { 
+	margin-top: 587px;
+ }
+
 
 #s4c {
 
