@@ -9,15 +9,12 @@ body {
 	background-image: url("pictures/windowmountain.jpg");
 }
 
-
 #top {
 	
 	color: #FFFFFF;
 	font-size: 80px;
     background-image: url("pictures/header.jpg")
 	}
-
-
 
 h1 {		
 
@@ -153,17 +150,18 @@ h2 {
 	padding-left: 204px;
 }
 
+#p3_2 {
 
+	background-color: blue;
+}
 
 #s4c {
 
 	border-radius: 50%;
 	width: 38%;
-	display: block;
-	height: 80%;
+    height: 80%;
 	margin-top: 128px;
 	margin-left: 64px;
-
 
 }
 
@@ -185,8 +183,6 @@ h2 {
 	width: 53%;
 	height: 50%;
 }
-
-
 
 @media screen and (max-width: 960px) and (min-width: 400px){
 	
