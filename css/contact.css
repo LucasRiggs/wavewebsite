@@ -15,6 +15,7 @@ body {
 
 	background-image: url("pictures/windowmountain.jpg");
 	background-color: #EE1E40;
+	height: 700px;
 }
 
 .container {
@@ -22,9 +23,8 @@ body {
 	margin-top: 118px;
 	margin-left: 127px; 
 	width: 950px;
-	height: 950px;
-	display: block;
-	display: inline-block				
+	height: 400px;
+   display: inline-block				
 
 }
 

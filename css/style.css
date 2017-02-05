@@ -14,13 +14,7 @@ body {
 	
 	color: #FFFFFF;
 	font-size: 80px;
-	background-color: #7A0606;
-/*	height: 170px;
-*/	background-image: url("pictures/header.jpg");
-
-	
-
-
+    background-image: url("pictures/header.jpg")
 	}
 
 
@@ -33,7 +27,7 @@ h1 {
 	margin-left: 1px;
 	margin-bottom: 0px;
 	font-family: 'Nova Square', cursive;
-	 color: white;
+	color: white;
     text-shadow:
     -1px -1px 0 #000,
     1px -1px 0 #000,
@@ -42,9 +36,10 @@ h1 {
 
 }
 
-p {
+p, li {
 
 	font-family: 'Nova Square', cursive;
+	word-spacing: 2px;
 }
 
 #navigation{
@@ -74,18 +69,12 @@ p {
 
 }
 
-#colour {
-
-	color: transparent;
-
-}
 
 #left_column {
 
 	background-image: url("pictures/vaporwave.jpg");
 	width: 50%;
 	display: inline-block;
-	border-radius: 5px;
 	float: left;
 
 }
@@ -108,6 +97,9 @@ p {
 	display: inline-block;
 	position: fixed;
 	background-image: url("pictures/computer.jpg");
+	background-repeat: no-repeat;
+	margin-left: 170px;
+	margin-top: 13px;
 
 }
 
@@ -115,18 +107,11 @@ p {
 #container {
 
 	width: 100%;
-/*	height: 100%;
-*/}
-
-#p2 {
-
-	padding-left: 1px;
 }
+
 
 #pi {
 	margin-left: 63px;
-	font-size: 19px;
-
 }
 
 .white {
@@ -143,70 +128,65 @@ h2 {
 
 .panels {
 
-	border: 1px solid;
+	border-bottom: 1px solid;
+	border-top: 1px solid;
+	border-left: 2px solid;
+	border-right: 2px solid;
+	padding-left: 17px;
 }
+
+.panels ul {
+
+	padding-left: 103px;
+}
+
+#p1 {
+	padding-left: 12px;
+}
+
+#p2 p {
+	padding-left: 53px;
+}
+
+#p2 ul {
+
+	padding-left: 204px;
+}
+
+
 
 #s4c {
 
 	border-radius: 50%;
-	margin: 0 auto;
-	width: 57%;
+	width: 38%;
 	display: block;
 	height: 80%;
-	margin-top: 48px;
-	margin-left: 145px;
+	margin-top: 128px;
+	margin-left: 64px;
 
-}
-
-li {
-
-	font-family: 'Nova Square', cursive;
-
-}
-
-.paragraphs {
-
-	margin-left: 78px;
-	font-size: 19px;
 
 }
 
 .icon {
 
-	width: 50px; 
-	height: 50px;
-	margin-top: 1px;
+	width: 11%; 
+	margin-top: 5px;
+	margin-right: 4px;
+	
 }
 
-#icons {
-
-	margin-left: 1px;
+.icon:hover, .white:hover, nav li:hover {
+	opacity: 0.5;
 }
 
 #icons2 {
 
-	margin-left: 270px;
+	margin-left: 114px;
+	width: 53%;
+	height: 50%;
 }
 
-#black {
 
-	color: #000000;
-}
-
-.rotate{
-    -moz-transition: all 2s linear;
-    -webkit-transition: all 2s linear;
-    transition: all 2s linear;
-    width: 10%;
-    height: 10%;
-}
-
-.rotate.down{
-    -ms-transform:rotate(180deg);
-    -moz-transform:rotate(180deg);
-    -webkit-transform:rotate(180deg);
-    transform:rotate(180deg);
-}
 
 @media screen and (max-width: 960px) and (min-width: 400px){
 	
